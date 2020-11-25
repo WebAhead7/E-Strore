@@ -11,6 +11,7 @@ import Home from "./components/Home";
 import Contact from "./components/Contact";
 import About from "./components/About";
 import React from "react";
+import ShoppingList from './components/ShoppingList';
 function App() {
   const [priceFilter, setPriceFilter] = React.useState([7, 999.99]);
   const [catFilter, setCatFilter] = React.useState("all");
@@ -19,6 +20,14 @@ function App() {
     <BrowserRouter>
       <div>
         <Navbar />
+        <Route exact path='/' component={Home} />
+        <Route path='/contact' component={Contact} />
+        <Route path='/about' component={About} />
+        <Route path='/shoppingList' component={ShoppingList} />
+        <Route path='/product/:id' component={Details} />
+        <Route path='/items' component={RepoList} />
+        <section className='items'>
+        </section>
         <Route exact path="/" component={Home} />
         <Route path="/contact" component={Contact} />
         <Route path="/about" component={About} />
