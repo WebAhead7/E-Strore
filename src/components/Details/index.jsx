@@ -11,7 +11,7 @@ const Details = (props) => {
   {
   if (item.id == id) {
 
-    return(<div>
+    return(<div className="myItem">
     <h3>{item.title}</h3>
         <img src={item.image} alt='' className='center'></img>
         <div>₪{item.price.toFixed(2)}</div>
