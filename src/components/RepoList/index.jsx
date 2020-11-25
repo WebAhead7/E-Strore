@@ -7,7 +7,7 @@ const RepoList = (props) => {
     <li key={item.id} className='card'>
       <h3>{item.title}</h3>
       <img src={item.image} alt='' className='center'></img>
-      <div>₪{item.price.toFixed(2)}</div>
+      <div>${item.price.toFixed(2)}</div>
       <button>Add to Cart</button>
     </li>
   ));
