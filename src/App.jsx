@@ -17,9 +17,10 @@ function App() {
         <Route exact path='/' component={Home} />
         <Route path='/contact' component={Contact} />
         <Route path='/about' component={About} />
-        <div>
+        <section className='items'>
+          <h2>Our Items</h2>
           <RepoList />
-        </div>
+        </section>
         <div>
           <Cart />
         </div>
