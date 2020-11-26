@@ -8,8 +8,13 @@ body {
     sans-serif;
   color: hsl(220, 10%, 20%);
   background-color: hsl(220, 10%, 98%);
+  align-items: center;
+  text-align: center;
 }
-
+.container {
+  align-items: left;
+  text-align: left;
+}
 ul {
   padding: 0;
   list-style: none;
@@ -36,8 +41,11 @@ main {
   width: 50%;
 }
 .filters {
-  padding: 2rem;
+  margin-top: 15px;
+  padding: 0.5rem;
+  width: 35%;
   background-color: hsl(220, 20%, 90%);
+  align-items: center;
 }
 
 h1 {

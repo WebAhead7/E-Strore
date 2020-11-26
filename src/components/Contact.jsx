@@ -2,8 +2,6 @@ import React from 'react';
 import Rainbow from '../hoc/Rainbow';
 
 const Contact = (props) => {
-  console.log(props);
-
   return (
     <div className='container'>
       <h4 className='center'>Contact Us</h4>

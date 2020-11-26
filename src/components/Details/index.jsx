@@ -8,7 +8,6 @@ const Details = (props) => {
   const history = useHistory();
 
   const params = useParams();
-  console.log(params);
   const id = params.id;
   return data.map((item) => {
     if (item.id == id) {
@@ -21,9 +20,8 @@ const Details = (props) => {
           <button
             onClick={(event) => {
               event.stopPropagation();
-              // setCart((cart) => cart.concat(item))
               setCart((cart) => [...cart, item]);
-              history.push(`/cart`);
+              history.push(`/`);
             }}
           >
             Add to Cart

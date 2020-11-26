@@ -28,9 +28,8 @@ const ItemsList = ({ setCart }) => {
         <button
           onClick={(event) => {
             event.stopPropagation();
-            // setCart((cart) => cart.concat(item))
             setCart((cart) => [...cart, item]);
-            history.push(`/cart`);
+            history.push(`/`);
           }}
         >
           Add to Cart
@@ -40,7 +39,7 @@ const ItemsList = ({ setCart }) => {
 
   return (
     <div>
-      <section className='filters'>
+      <section className='filters center'>
         <h2>Filters</h2>
         <form>
           <PriceFilter
