@@ -1,10 +1,8 @@
 import React from 'react';
 import { NavLink, withRouter } from 'react-router-dom';
 const Navbar = (props) => {
-  console.log(props);
-  //   setTimeout(() => {
-  //     props.history.push('/about');
-  //   }, 2000);
+  console.log(props.countItems);
+
   return (
     <nav className='nav-wrapper blue darken-3'>
       <div className='container'>
@@ -22,7 +20,7 @@ const Navbar = (props) => {
             <NavLink to='/contact'>Contact</NavLink>
           </li>
           <li>
-            <NavLink to='/shoppinglist'>ShoppingList</NavLink>
+            <NavLink to='/cart'>Cart {props.countItems}</NavLink>
           </li>
         </ul>
       </div>

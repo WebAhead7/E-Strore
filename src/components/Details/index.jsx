@@ -1,7 +1,7 @@
-// does nothing, to create folder
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import data from '../../data/data';
+import data from '../../data';
+
 const Details = (props) => {
   const params = useParams();
   console.log(params);
