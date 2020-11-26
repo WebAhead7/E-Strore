@@ -3,7 +3,7 @@
 <br />
 
 <p align = "center">
-  <img src= 'https://github.com/WebAhead7/E-Strore/blob/main/README.png' width="80%" height="500" />
+  <img src= 'https://github.com/WebAhead7/E-Strore/blob/main/README.PNG' width="80%" height="500" />
 </p>
   <h2 align="center"><a href='https://angry-boyd-8fcdcd.netlify.app'><strong>Check our website »</strong></a>
 
@@ -35,9 +35,6 @@ You can shop estore.com in your preferred currency–even if it doesn't match th
 
 Check out the project instructions from WebAhead: [Projet instructions](https://github.com/WebAhead/master-reference/blob/master/coursebook/week-8/project.md)
 
-<p align = "center">
-  <img src= 'https://github.com/WebAhead7/fishy/blob/main/public/images/screenshotpng' width="80%" height="500" />
-</p>
 
 ## Built With
 
