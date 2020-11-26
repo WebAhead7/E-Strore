@@ -10,8 +10,8 @@ function PriceFilter({ priceFilter, setPriceFilter }) {
           type="range"
           id="min"
           value={priceFilter[0]}
-          min="7.95"
-          max="999.99"
+          min="0"
+          max="1000"
           step="50"
           onChange={(event) =>
             setPriceFilter([event.target.value, priceFilter[1]])
@@ -24,8 +24,8 @@ function PriceFilter({ priceFilter, setPriceFilter }) {
           type="range"
           id="max"
           value={priceFilter[1]}
-          min="7.95"
-          max="999.99"
+          min="0"
+          max="1000"
           step="50"
           onChange={(event) =>
             setPriceFilter([priceFilter[0], event.target.value])
