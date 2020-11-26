@@ -8,9 +8,9 @@ const Navbar = (props) => {
   return (
     <nav className='nav-wrapper blue darken-3'>
       <div className='container'>
-        <a href='/' className='brand-logo'>
+        <NavLink to='/' className='brand-logo'>
           E-Store
-        </a>
+        </NavLink>
         <ul className='right'>
           <li>
             <NavLink to='/'>Home</NavLink>
@@ -20,6 +20,9 @@ const Navbar = (props) => {
           </li>
           <li>
             <NavLink to='/contact'>Contact</NavLink>
+          </li>
+          <li>
+            <NavLink to='/shoppinglist'>ShoppingList</NavLink>
           </li>
         </ul>
       </div>
