@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# E-store
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br />
 
-## Available Scripts
+<p align = "center">
+  <img src= 'https://github.com/WebAhead7/E-Strore/blob/main/README.png' width="80%" height="500" />
+</p>
+  <h2 align="center"><a href='https://angry-boyd-8fcdcd.netlify.app'><strong>Check our website »</strong></a>
 
-In the project directory, you can run:
+<!-- TABLE OF CONTENTS -->
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [About the Project](#about-the-project)
+- [Getting Started](#getting-started)
+- [Built With](#built-with)
+- [Roadmap](#roadmap)
+- [Contact](#contact)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<!-- ABOUT THE PROJECT -->
 
-### `npm test`
+## About The Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Online Shopping
 
-### `npm run build`
+##### SHOP & SHIP ALL OVER THE WORLD!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- GETTING STARTED -->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+We ship to over 200 locations worldwide! Thanks to our partnership with Borderfree Ecommerce, a trusted third-party service, you can send your estore.com purchases around the globe with ease and confidence. When you place an international order, your transaction will be with Borderfree, but if you have questions, concerns or customer service needs, our macys.com associates will be happy to help you!
 
-### `npm run eject`
+You can shop estore.com in your preferred currency–even if it doesn't match the currency of the shipping destination. Your order total is guaranteed at the exchange rate set when your order is placed. Orders shipped to the United States must have a U.S. credit card billing address to be placed online.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Check out the project instructions from WebAhead: [Projet instructions](https://github.com/WebAhead/master-reference/blob/master/coursebook/week-8/project.md)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align = "center">
+  <img src= 'https://github.com/WebAhead7/fishy/blob/main/public/images/screenshotpng' width="80%" height="500" />
+</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Built With
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- HTML
+- CSS
+- JSX
+- React
 
-## Learn More
+<!-- ROADMAP -->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Roadmap
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+See the [open issues](https://github.com/WebAhead7/E-Strore/issues) for a list of proposed features (and known issues).
 
-### Code Splitting
+<!-- CONTACT -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contact
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Muhammad Khamaisi : [@GitHub](https://github.com/muhkham)
+- Myassar Jabalee : [@GitHub](https://github.com/myassar1211)
+- Jiries Khazen : [@GitHub](https://github.com/jiries-khazen)
+- Salah Majadly : [@GitHub](https://github.com/mjmajadly)
