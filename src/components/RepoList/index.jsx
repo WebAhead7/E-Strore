@@ -1,6 +1,6 @@
 // does nothing, to create folder
 import React from 'react';
-import data from '../../data';
+import data from '../../data/data';
 import { useHistory } from 'react-router-dom';
 import PriceFilter from '../PriceFilter';
 import CategoryFilter from '../CategoryFilter';
