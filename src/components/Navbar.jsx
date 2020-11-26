@@ -18,7 +18,9 @@ const Navbar = (props) => {
             <NavLink to='/contact'>Contact</NavLink>
           </li>
           <li>
-            <NavLink to='/cart'>Cart {props.countItems}</NavLink>
+            <NavLink to='/cart'>
+              Cart {props.countItems === 0 ? null : `(${props.countItems})`}
+            </NavLink>
           </li>
         </ul>
       </div>

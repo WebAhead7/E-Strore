@@ -17,6 +17,7 @@ function PriceFilter({ priceFilter, setPriceFilter }) {
             setPriceFilter([event.target.value, priceFilter[1]])
           }
         />
+        <h4>Current Min Price: ${priceFilter[0]}</h4>
       </label>
       <label htmlFor='max'>
         Max Price
@@ -31,6 +32,7 @@ function PriceFilter({ priceFilter, setPriceFilter }) {
             setPriceFilter([priceFilter[0], event.target.value])
           }
         />
+        <h4>Current Max Price: ${priceFilter[1]}</h4>
       </label>
     </fieldset>
   );

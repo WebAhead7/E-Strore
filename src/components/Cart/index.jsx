@@ -1,50 +1,39 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
+import './style.css';
 
 const Cart = ({ cart, setCart }) => {
-  console.log(cart)
+  let total = 0;
+
   return (
-    <div className="items">
-      {
-        cart.map((item) => (
-          <div>
-            <button onClick={(event) => {
-              setCart((prevCart) => prevCart.filter(({ id }) => item.id !== id))
-            }}
-            >Delete
-        </button>
-            <h3>{item.title}</h3>
-            <img src={item.image} alt='' className='center'></img>
-            <div>₪{item.price.toFixed(2)}</div>
-            <p>{item.description}</p>
-          </div>
-        ))
-      }
-    </div>
-  );
+    <div className='card'>
+      {cart.map((item) => (
+        <div>
+          <span style={{ display: 'none' }}>
+            {(total = total + item.price)}
+          </span>
 
-};
-
-
-export default Cart;
-
-
-{/* const Cart = ({ cart }) => {
-  return (<div>
-    {
-      cart.map((item) =>
-        <div className="item">
-          <button onClick={(event) => {
-            setCart((prevCart) => prevCart.filter(({ id }) => item.id !== id))
-          }}
-          >Delete
-        </button>
           <h3>{item.title}</h3>
           <img src={item.image} alt='' className='center'></img>
-          <div>₪{item.price.toFixed(2)}</div>
+          <div>${item.price.toFixed(2)}</div>
           <p>{item.description}</p>
+          <button
+            onClick={(event) => {
+              setCart((prevCart) =>
+                prevCart.filter(({ id }) => item.id !== id)
+              );
+            }}
+          >
+            Delete
+          </button>
+          <br />
         </div>
+      ))}
+      <div>
+        <h3>Total: ${total.toFixed(2)}</h3>
+      </div>
+    </div>
+  );
+};
 
-        </div>
-  )
-}; */}
+export default Cart;

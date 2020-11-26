@@ -1,11 +1,10 @@
-// does nothing, to create folder
 import React from 'react';
 import data from '../../data/data';
 import { useHistory } from 'react-router-dom';
 import PriceFilter from '../PriceFilter';
 import CategoryFilter from '../CategoryFilter';
 
-const RepoList = ({ setCart }) => {
+const ItemsList = ({ setCart }) => {
   const [priceFilter, setPriceFilter] = React.useState([0, 1000]);
   const [catFilter, setCatFilter] = React.useState('all');
   const [minPrice, maxPrice] = priceFilter;
@@ -63,4 +62,4 @@ const RepoList = ({ setCart }) => {
   );
 };
 
-export default RepoList;
+export default ItemsList;
