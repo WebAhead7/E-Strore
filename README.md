@@ -3,7 +3,7 @@
 <br />
 
 <p align = "center">
-  <img src= 'https://github.com/WebAhead7/E-Strore/blob/main/README.PNG' width="80%" height="500" />
+  <img src= 'https://github.com/WebAhead7/E-Strore/blob/main/README2.PNG' width="600" height="295" />
 </p>
   <h2 align="center"><a href='https://angry-boyd-8fcdcd.netlify.app'><strong>Check our website »</strong></a>
 
